@@ -1,0 +1,61 @@
+@font-face {
+  font-family: cajunboogie;
+  src: url(cajunboogie.ttf);
+}
+
+.author {
+  text-align: center;
+  font-size: 1rem;
+}
+
+li {
+  font-size: 1.3rem;
+}
+
+.title {
+  font-family: cajunboogie;
+  margin: auto;
+
+  font-size: 2rem;
+  text-align: center;
+}
+body {
+  width: 100%;
+  margin: auto;
+}
+
+p,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+}
+
+.col {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredient-image {
+  display: block;
+
+  max-width: 15rem;
+  max-height: 15rem;
+  height: auto;
+  width: auto;
+}
+
+.step-image {
+  margin: auto;
+  display: block;
+  max-height: 50%;
+  max-width: 50%;
+  height: auto;
+  width: auto;
+}
